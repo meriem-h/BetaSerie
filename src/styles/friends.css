@@ -1,0 +1,146 @@
+/****************************/
+/*********FRIENDS************/
+/****************************/
+#friends-page {
+    display: flex;
+    flex-direction: column;
+}
+
+#mes-amis, #recherche-amis {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.thumbnail-friend {
+    background-color: rgb(19, 59, 87);
+    width: 150px;
+    margin: 5px; padding: 5px;
+}
+
+.friend-login {
+    color: white;
+    width: fit-content;
+    text-align: center;
+    text-decoration: underline;
+    margin: 5px auto 10px auto;
+}
+
+.title-friend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-h1 {
+    width: fit-content;
+}
+
+
+.amis {
+    cursor: pointer;
+}
+
+.amis:hover > * {
+    text-decoration: none;
+}
+
+.img-friend-wrapper {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+    margin: 5px auto;
+}
+
+.button-recherche {
+    background-color: white;
+    border: 1px solid rgb(19, 59, 87);
+    width: fit-content;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.button-recherche:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#input-recherche-amis {
+    width: 100%;
+    margin: 5px;
+}
+
+.zone-recherche {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ami-legende {
+    font-weight: bold;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.block-link {
+    text-decoration: underline;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.block-link:hover {
+    text-decoration: none;
+}
+
+.stats-friend {
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.block-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 87%;
+    cursor: pointer;
+}
+
+.block-icon:hover {
+    outline : 1px solid white;
+    border-radius : 50%;
+}
+
+.choix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ignorer {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ignorer:hover {
+    text-decoration: none;
+}
+
+.notif {
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: rgb(19, 59, 87);
+    color: white;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin : 5px;
+    justify-content: space-between;
+}

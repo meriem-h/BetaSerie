@@ -1,0 +1,10 @@
+import "./App.css";
+import "./styles/connexion.css";
+import "./styles/nav.css";
+import "./styles/profil.css";
+import "./styles/friends.css";
+import "./styles/profilDetail.css";
+import "./styles/profil_edit.css";
+import "./styles/discover.css";
+import "./styles/detail.css";
+import "./styles/search.css";

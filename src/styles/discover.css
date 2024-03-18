@@ -1,0 +1,51 @@
+.discover_body {
+    width: 90vw;
+    background-color: rgb(19, 59, 87);
+    margin: auto;
+}
+
+.fiche{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.39);
+}
+
+.fleche{
+    height: 70px;
+}
+
+.titles{
+    white-space: nowrap;
+    overflow: hidden;
+    width: 300px;
+    text-overflow: ellipsis;
+}
+
+.favorite{
+    height: 40px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.discover_list{
+    background-color: rgba(240, 248, 255, 0.418);
+    margin-top: 25px;
+}
+
+.discover_list h1{
+    background-color: rgba(240, 248, 255, 0.452);
+}
+
+.caroussel_item{
+    /* background-color: rgba(240, 248, 255, 0.288); */
+    margin: 25px;
+
+}
+
+.carousel_img{
+    height: 400px;
+}

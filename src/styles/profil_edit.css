@@ -1,0 +1,84 @@
+/*************************************/
+/**************EDIT*******************/
+/*************************************/
+
+.modal-wrapper {
+    width: 100vw; min-height: 600px;
+    position: fixed;
+    z-index: 50;
+    top : 10px;
+    left: 0;
+}
+
+.modal {
+    width: fit-content; min-height: fit-content;
+    border-radius: 5px;
+    margin: auto;
+    background-color: rgb(19, 59, 87);
+    box-shadow: 0px 0px 50px 1px rgb(42, 41, 56);
+    padding: 20px;
+}
+
+#modal-edit {
+    display: none;
+}
+
+#edit_body {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: auto;
+    align-items: center;
+}
+
+.form-edit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+    /* margin: 20px; */
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.forms-edit {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-edit {
+    margin: 5px 0px;
+    padding: 5px;
+}
+
+.button-edit {
+    margin-top: 25px;
+}
+
+.title-edit {
+    color: white;
+    margin-top: 20px;
+}
+
+.delete-user-button {
+    margin-bottom: 10px;
+}
+
+/******************************/
+/*********EDIT-AVATAR**********/
+/******************************/
+
+#edit-photo-profil {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preview-wrapper {
+    
+    border: 1px solid white;
+}

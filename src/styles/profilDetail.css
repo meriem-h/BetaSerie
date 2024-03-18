@@ -1,0 +1,62 @@
+/********************************/
+/***********PROFIL*DETAIL********/
+/********************************/
+
+#modal-detail-profil {
+    display: flex;
+    width: 100%; min-height: 400px;
+    background-color: rgb(19, 59, 87);
+    margin : auto;
+    flex-direction: column;
+
+}
+
+.close {
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    /* position: relative; */
+    margin-left: 93%;
+    margin-top: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.close:hover {
+    text-decoration: none;
+}
+
+.banner-mini {
+    width: 98%;
+    min-height: 200px;
+    margin: 0px auto 10px auto;
+}
+
+.info-detail-profil {
+    display: flex;
+}
+
+.info-base {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.login-detail-profil {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 5px auto 10px auto;
+}
+
+.mini-wrapper {
+    width: 200px;
+    height: 200px;
+}
+
+.stats-detail-profil {
+    width: 90%;
+    margin: 0px auto 20px auto;
+    padding: 10px;
+}

@@ -1,0 +1,61 @@
+/*************************/
+/*******CONNEXION*********/
+/*************************/
+
+#connexion-page {
+    width: 70vw; height: 100vh;
+    /* padding-top: 100px; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#form-user-edit {
+    width: 80%;
+    padding: 80px 0px 100px 0px;
+    background-color: rgb(19, 59, 87);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.champs {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    color: white;
+}
+
+#title-connect {
+    text-align: center;
+    margin: 50px;
+    font-size: 3em;
+    /* font-weight: bold; */
+}
+
+.button-connect {
+    margin: 20px auto;
+    text-decoration: none;
+}
+
+#inputs {
+    width: 50%;
+    margin: 30px auto;
+    display: none;
+}
+
+.sub-text {
+    color: rgb(50, 99, 134);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.error-msg {
+    margin: 10px;
+    height: 20px;
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+}

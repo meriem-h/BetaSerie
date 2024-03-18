@@ -1,0 +1,96 @@
+/******************/
+/*******APP********/
+/******************/
+
+@font-face {
+  font-family: 'digital7';
+  src: url('../public/digital-7.regular.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+  min-height: 100%;
+}
+
+#BG {
+  min-width: 100vw;
+  min-height: 110vh;
+  background: linear-gradient(#0d898d49, #1035ad38), 
+  url('../public/wallpaper.jpg');
+  background-size: cover;
+  position: fixed;
+  z-index: -100;
+}
+
+.App {
+  /* background: linear-gradient(#64e2e600, #9198e5); */
+  /* background-color: rgb(19, 59, 87); */
+}
+
+.button {
+  /* width: fit-content; */
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  background-color: rgb(19, 59, 87);
+}
+
+.margin-auto  {
+  margin: auto;
+}
+
+.width-fit-content {
+  width: fit-content;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.right {
+  float: right;
+}
+
+.blue {
+  color: rgb(19, 59, 87);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.large-font {
+  font-size: 1.5em;
+}
+
+.none {
+  display: none;
+}
+
+.cent {
+  width: 100%;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.lien {
+  color: black;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.lien:hover {
+  text-decoration: none;
+}
+
